@@ -7,7 +7,7 @@ library(mvtnorm)
 wd<-getwd()
 Shiny.data <- read.csv(paste0(wd,"/outputData.csv"))
 Shiny.data<-Shiny.data[-c(1)]
-#Shiny.data<-read.csv("/Users/haosicheng/Desktop/BIDMC/EBART/output.csv")
+#Shiny.data<-read.csv("/Users/haosicheng/Desktop/BIDMC/Shiny-EBART/Shiny_App/outputData.csv")
 
 
 
