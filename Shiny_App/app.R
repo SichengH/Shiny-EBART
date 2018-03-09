@@ -4,6 +4,7 @@ library(ggplot2)
 library(DT)
 library(splines)
 library(mvtnorm)
+
 wd<-getwd()
 Shiny.data <- read.csv(paste0(wd,"/outputData.csv"))
 Shiny.data<-Shiny.data[-c(1)]
